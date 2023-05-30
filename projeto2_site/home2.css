@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+    /* Reset de estilos básicos */
+body, h1, h2, h3, p, ul, li {
+margin: 0;
+padding: 0;
+}
+
+/* Estilos do header */
+header {
+  background: #000000;
+  padding: 10px;
+  font-family:"Arial Black";
+  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  
+}
+
+.filmes img {
+  width: 70px;
+  height: 70px;
+}
+
+.filmes {
+    font-family:"Poppins";
+    padding: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: auto;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #f04c4c;
+}
+
+/* Estilos da seção hero */
+.hero {
+  background: #747070;
+  padding: 100px 0;
+  text-align: center;
+  font-family:"Poppins";
+  width: 100%;
+  height: 160px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family:"Poppins";
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos da seção features */
+.features {
+  background: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+
+.feature img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.lan {
+    text-align:center;
+    font-family:"Poppins";
+}
+
+
+/* Estilos do footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-family:"Calibri";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container p {
+  margin: 0;
+}

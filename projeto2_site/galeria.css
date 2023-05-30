@@ -1,0 +1,93 @@
+  /* Reset de estilos básicos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do header */
+  header {
+    background: #000000;
+    padding: 10px;
+    font-family:"Arial Black";
+  }
+  
+  .logo img {
+    height: 40px;
+    
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-left: auto;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f04c4c;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+  
+  /* Estilos da galeria de imagens */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .image {
+    position: relative;
+  }
+  
+  .image img {
+    width: 70%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .overlay h2 {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .image:hover .overlay {
+    opacity: 1;
+  }
+
+  /* Estilos do footer */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    font-family:"Calibri";
+  }
